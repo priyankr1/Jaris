@@ -394,10 +394,6 @@ recognition.onresult = function (event) {
     }
     //
 
-    if (transcript.includes("hie jarvis")) {
-      readOut("hello sir how can i help you ");
-    }
-
     if (transcript.includes("search for")) {
       readOut("here's your result");
       let input = transcript.split("");
